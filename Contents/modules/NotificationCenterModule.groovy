@@ -10,8 +10,8 @@ if(!"Mac OS X".equals(System.getProperty("os.name"))){
     return false;
 }
 
-if(! System.getProperty("os.version")?.startsWith("10.8")){
-    println "Requires Mac OS X Version 10.8.x. Version: ${System.getProperty("os.version")}"
+if(! System.getProperty("os.version")?.startsWith("10.10")){
+    println "Requires Mac OS X Version 10.10.x. Version: ${System.getProperty("os.version")}"
     return false;
 }
 
