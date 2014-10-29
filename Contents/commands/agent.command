@@ -6,4 +6,5 @@ LogModule
 ReportModule
 SpeechModule
 JenkinsModule
+NotificationCenterModule
 ClewareTrafficLight
